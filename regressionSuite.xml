@@ -5,7 +5,6 @@
     <test verbose="2" preserve-order="true" name="C:/Users/Mostafa/IdeaProjects/automate_kazo/src/test/java/tests">
         <classes>
             <class name="tests.UserRegistrationTestWithFakeData"/>
-            <class name="tests.UserRegistrationTestWithFakeData"/>
 <!--            <class name="tests.UserRegistrationTestWithJson"/>-->
             <class name="runner.TestRunner">
                 <methods>
