@@ -28,9 +28,10 @@ public class TestBase extends AbstractTestNGCucumberTests {
         if (browserName.equalsIgnoreCase("chrome"))
         {
             System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir") + "/drivers/chromedriver.exe");
-            ChromeOptions options=new ChromeOptions();
-            options.addArguments("--headless");
-            driver=new ChromeDriver(options);
+//            ChromeOptions options=new ChromeOptions();
+//            options.addArguments("--headless");
+//            driver=new ChromeDriver(options);
+            driver = new ChromeDriver();
         } else if (browserName.equalsIgnoreCase("firefox"))
         {
             driver = new FirefoxDriver();
